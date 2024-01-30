@@ -8,7 +8,7 @@ public class App
     {
         String url = "jdbc:mysql://localhost:3306/test";
         String user = "root";
-        String password = "~Lilo6Maa_268~";
+        String password = ""; // replace with the password of the user
 
         try (Connection connection = DriverManager.getConnection(url, user, password)) {
             System.out.println("Connected to the database!");
